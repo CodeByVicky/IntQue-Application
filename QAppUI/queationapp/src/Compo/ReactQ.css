@@ -1,0 +1,115 @@
+.container{
+    margin-top: 30px;
+}
+
+.card{
+    margin-top: 20px;
+}
+.card-text {
+    margin-top: 40px; /* Margin on top */
+    border: 2px solid rgb(8, 39, 141); /* Add a solid black border with a thickness of 2px */
+    padding: 10px; /* Add some padding inside the border */
+    font-size: 30px;
+  
+  }
+  
+  .btnw {
+    width: 20%; /* Set the width of the button to 50% of its parent element */
+  }
+
+  .btnw{
+    margin-right: 30px;
+  }
+
+  .btn1{
+    margin-right: 10px;
+    width: 12%;
+  }
+
+  .btn2 {
+    width: 35%; /* Set the width of the button to 50% of its parent element */
+  }
+
+  .imgs {
+    width: 103px; /* Set the width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.mar{
+ margin-top: 50px;
+}
+
+.mar1{
+ 
+ margin-left: 150px;
+ margin-bottom: 10px;
+}
+
+.mar2{
+
+ margin-right: 50px;
+}
+
+.custom-navbar {
+background-color: rgb(8, 39, 141);
+
+}
+
+.nav-link{
+  color: aliceblue;
+ 
+}
+
+.navbar-brand{
+  margin-left: 50px;
+ 
+}
+
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show,
+.navbar-brand.active {
+  color: #59bbad; /* Specify your desired text color */
+}
+
+
+/* ReactQ.css */
+
+/* Normal styles */
+
+@media only screen and (max-width: 768px) {
+  body {
+      transform-origin: left top;
+      overflow-x: hidden;
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+
+  .navbar-nav {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .nav-link {
+      margin-bottom: 0.5rem;
+  }
+
+  .rotate-screen {
+      transform: rotate(90deg);
+      transform-origin: left top;
+      width: 100vh;
+      height: 100vw;
+  }
+}
+
+.rotate-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.rotate-button {
+    margin-top: 10px;
+}
